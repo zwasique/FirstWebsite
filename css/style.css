@@ -13,6 +13,7 @@
 
 html {
   color: #222;
+  font-family: "Galvji";
   font-size: 1em;
   line-height: 1.4;
 }
@@ -25,12 +26,12 @@ html {
  */
 
 ::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+  background: #b3d4;
+ text-shadow: none;
 }
 
 ::selection {
-  background: #b3d4fc;
+  background: #b3d4;
   text-shadow: none;
 }
 
@@ -84,6 +85,28 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+.column-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items:flex-start;
+  background: #34ebae;
+
+}
+
+
+button {
+  border-radius: 130px;
+  border:2px solid cadetblue;
+  cursor: not-allowed;
+  height: 130px;
+  width: 130px;
+  background: black;
+  color: white;
+  font-family: "Galvji";
+
+
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
