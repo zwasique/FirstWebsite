@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/zarawasique/projects/resumeformatter/cmake-build-debug",
-		"source" : "/Users/zarawasique/projects/resumeformatter"
+		"build" : "/Users/zarawasique/projects/FirstWebsite/resumeFormatter/cmake-build-debug",
+		"source" : "/Users/zarawasique/projects/FirstWebsite/resumeFormatter"
 	},
 	"version" : 
 	{
