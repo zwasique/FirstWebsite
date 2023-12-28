@@ -84,20 +84,34 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
+.columnify{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+  height: 80vh;
+  //padding: 3rem calc((100vw - 1300px) / 2);
+  padding: 10px;
+  border: 10px solid #34ebae;
+  margin: 20px;
+}
 .column-left {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  align-items:flex-start;
+  align-items: flex-start;
   background: #34ebae;
+  padding: 1rem 2rem;
 
+}
+
+.column-right{
+  padding: 1rem 2rem;
 }
 
 
 button {
   border-radius: 130px;
   border:2px solid cadetblue;
+  justify-content: center;
 
   height: 130px;
   width: 130px;
