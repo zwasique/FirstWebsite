@@ -10,10 +10,12 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+:root{
+  --green-main: #34ebae;
+}
 html {
   color: #222;
-  font-family: "Galvji";
+  font-family: "Galvji", system-ui;
   font-size: 1em;
   line-height: 1.4;
 }
@@ -90,7 +92,7 @@ textarea {
   height: 80vh;
   //padding: 3rem calc((100vw - 1300px) / 2);
   padding: 10px;
-  border: 10px solid #34ebae;
+  border: 10px solid var(--green-main);
   margin: 20px;
 }
 .column-left {
@@ -98,7 +100,7 @@ textarea {
   flex-direction: column;
   justify-content: left;
   align-items: flex-start;
-  background: #34ebae;
+  background: var(--green-main);
   padding: 1rem 2rem;
 
 }
@@ -117,7 +119,7 @@ button {
   width: 130px;
   background: black;
   color: white;
-  font-family: "Galvji";
+  font-family: "Galvji", system-ui;
 
 }
 
