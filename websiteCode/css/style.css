@@ -98,15 +98,22 @@ textarea {
 button {
   border-radius: 130px;
   border:2px solid cadetblue;
-  cursor: not-allowed;
+
   height: 130px;
   width: 130px;
   background: black;
   color: white;
   font-family: "Galvji";
 
-
 }
+
+button:hover{
+
+  background: #555555;
+  cursor: pointer;
+}
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
