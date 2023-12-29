@@ -21,7 +21,8 @@ html {
 }
 
 h1 {
-  font-size: 8em;
+  font-size: 7em;
+  margin-bottom:20px;
 }
 
 h2 {
@@ -97,8 +98,8 @@ textarea {
 .columnify{
   display:grid;
   grid-template-columns: 1fr 2fr;
-  height: 100vh;
-  //padding: 3rem calc((100vw - 1300px) / 2);
+  height: 85vh;
+
   padding: 10px;
   border: 10px solid var(--green-main);
   margin: 10px;
@@ -109,7 +110,7 @@ textarea {
   justify-content: left;
   align-items: flex-start;
   background: var(--green-main);
-  padding: 1rem 2rem;
+  padding: .5rem 4rem;
 
 }
 
@@ -122,6 +123,8 @@ button {
   border-radius: 130px;
   border:2px solid cadetblue;
   justify-content: center;
+  margin: auto;
+
 
   height: 130px;
   width: 130px;
